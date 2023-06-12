@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/avatarImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_user"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John Doe"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/professionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Software Developer"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/summaryTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Summary:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/summaryContentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra nisi eu nisi volutpat, vel lacinia felis consectetur. Donec ac tellus dolor. Ut sed dignissim elit, sit amet malesuada lectus. Integer."
+        android:textSize="16sp"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/educationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Education:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/educationContentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bachelor of Computer Science - University of Sciences (2020-2024)"
+        android:textSize="16sp"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/awardTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Achievements &amp; Awards:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/awardContentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Price in ... (08/2020)\n\nSecond Price in ... (03/2023)"
+        android:textSize="16sp"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/projectTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Project:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/projectContentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" ... (08/2020)\n\n ... (03/2023)"
+        android:textSize="16sp"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginBottom="16dp" />
+
+
+
+</LinearLayout>
